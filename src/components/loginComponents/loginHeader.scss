@@ -1,0 +1,15 @@
+@import '../../scss/variables/_index.scss';
+// HEADER
+.login-header {
+	padding: 1.5rem 0;
+	background: $color-white;
+	border-bottom: 2px solid darken($color-white, 10%);
+	&__title {
+		color: $color-black;
+		font-weight: 400;
+		letter-spacing: .2rem;
+		text-align: center;
+		line-height: 2.5rem;
+		opacity: .8;
+	}
+}

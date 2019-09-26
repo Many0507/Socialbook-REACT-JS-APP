@@ -1,0 +1,24 @@
+// BASE
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	min-height: 100vh;
+	font-family: $font-primary;
+}
+h1 {
+	margin: 0;
+}
+// GENERAL
+.container {
+	width: 75%;
+	margin: 0 auto;
+}
+.app-name {
+	font-family: $font-secondary;
+	color: $color-green;
+	font-weight: 700;
+	letter-spacing: .2rem;
+}
